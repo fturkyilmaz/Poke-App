@@ -69,9 +69,6 @@ const FavoriteCard: React.FC<FavoriteCardProps> = ({ pokemonName }) => {
   return (
     <GestureHandlerRootView>
       <View style={styles.swipeContainer}>
-        <View style={styles.deleteBackground}>
-          <Ionicons name="trash" size={24} color="white" />
-        </View>
         <PanGestureHandler onGestureEvent={gestureHandler}>
           <Animated.View style={[styles.favoriteCard, animatedStyle]}>
             <Image source={{ uri: data.sprites.front_default }} style={styles.favoriteImage} />

@@ -17,7 +17,7 @@ export function Location() {
       id: 2,
       title: "PokeCenter",
       coordinate: { latitude: 36.87907, longitude: 30.71859 },
-      address: "Muratpaşa, Antalya, Turkey",
+      address: "Beşiktaş, İstanbul, Turkey",
       image:
         "https://www.dexerto.com/cdn-image/wp-content/uploads/2022/09/04/pokemon-center-header.jpg?width=1200&quality=60&format=auto",
     },

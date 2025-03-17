@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Badge() {
   return (
-    <View>
-      <Text>Badge</Text>
+    <View style={{ padding: 20 }}>
+      <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Furkan Türkyılmaz</Text>
     </View>
   )
 }
